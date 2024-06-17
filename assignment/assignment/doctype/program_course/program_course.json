@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-14 00:28:20.485071",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "course",
+  "total_credits",
+  "preview"
+ ],
+ "fields": [
+  {
+   "fieldname": "course",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Course",
+   "options": "Course"
+  },
+  {
+   "fieldname": "preview",
+   "fieldtype": "Button",
+   "in_list_view": 1,
+   "label": "Preview"
+  },
+  {
+   "fieldname": "total_credits",
+   "fieldtype": "Int",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Total Credits"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-14 13:07:09.028202",
+ "modified_by": "Administrator",
+ "module": "Assignment",
+ "name": "Program Course",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
